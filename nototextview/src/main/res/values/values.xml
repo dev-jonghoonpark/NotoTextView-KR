@@ -1,0 +1,13 @@
+<resources>
+    <declare-styleable name="NotoTextView">
+        <attr name="fontWeight" format="enum">
+            <enum name="thin" value="0" />
+            <enum name="light" value="1" />
+            <enum name="demilight" value="2" />
+            <enum name="regular" value="3" />
+            <enum name="medium" value="4" />
+            <enum name="bold" value="5" />
+            <enum name="black" value="6" />
+        </attr>
+    </declare-styleable>
+</resources>

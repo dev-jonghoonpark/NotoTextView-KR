@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".SplashActivity">
+
+    <io.chooco13.NotoTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="thin"
+        android:textSize="36sp"
+        app:fontWeight="thin" />
+
+    <io.chooco13.NotoTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="light"
+        android:textSize="36sp"
+        app:fontWeight="light" />
+
+    <io.chooco13.NotoTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="demilight"
+        android:textSize="36sp"
+        app:fontWeight="demilight" />
+
+    <io.chooco13.NotoTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="regular"
+        android:textSize="36sp"
+        app:fontWeight="regular" />
+
+    <io.chooco13.NotoTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="medium"
+        android:textSize="36sp"
+        app:fontWeight="medium" />
+
+    <io.chooco13.NotoTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bold"
+        android:textSize="36sp"
+        app:fontWeight="bold" />
+
+    <io.chooco13.NotoTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="black"
+        android:textSize="36sp"
+        app:fontWeight="black" />
+
+</LinearLayout>
