@@ -13,6 +13,16 @@ xml 상에서도 쉽게 구현하기 위한 라이브러리 입니다.
 이번 기회에 커스텀 뷰로 라이브러리도 만들어보고 maven을 통한 라이브러리 배포도 해보고 싶어  
 짧은 코드지만 깃헙에 올리고 jcenter 라이브러리로 배포를 시도하였습니다.
 
+## 어떻게 프로젝트에 추가하냐고요?  
+
+이 라이브러리는 Gradle dependency(jcenter)를 통해서 받을 수 있습니다.
+
+ ```gradle
+dependencies {
+	    compile 'io.chooco13:nototextview:0.1'
+}
+```
+
 ## 어떻게 쓰는거냐고요?  
 
 fontWeight 에 필요한 weight값(thin, light, demilight, regular, medium, bold, black)을 넣으면 됩니다.  
@@ -79,3 +89,6 @@ xml에서 입력한 fontWeight 값을 통해 해당 값의 TextView 생성이 �
 ## 2015.05.07 AM 6:00
 - 라이브러리 생성 및 문서화
 - bintray 배포 및 jcenter link 신청
+
+## 2015.05.07 AM 10:00
+- jcenter link 승인됨
